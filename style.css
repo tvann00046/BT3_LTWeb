@@ -1,0 +1,51 @@
+/* Reset một số mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Đảm bảo các cột cách nhau đều */
+    padding: 20px;
+}
+
+ul {
+    list-style: none; /* Xóa bullet point */
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Thêm khoảng cách giữa các mục */
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.column-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 8px; /* Khoảng cách giữa các mục */
+}
+
+/* Icon font awesome */
+i {
+    margin-right: 8px; /* Khoảng cách giữa icon và text */
+}
+
+/* Căn chỉnh hàng dọc cho các mục icon */
+.social-media li {
+    display: flex;
+    align-items: center;
+}
